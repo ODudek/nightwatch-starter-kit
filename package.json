@@ -1,0 +1,21 @@
+{
+  "name": "nightwatch-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "4.4.6"
+  },
+  "scripts": {
+    "test:e2e": "nightwatch --config config/nightwatch.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^2.41.0",
+    "nightwatch": "^0.9.21",
+    "selenium-server": "^3.14.0"
+  }
+}
