@@ -4,7 +4,7 @@ module.exports = {
     timeout: 5000,
     dafaultUrl: 'https://google.pl',
     testsPath: ['test/e2e', 'test/unit'],
-    helpersPath: 'test/e2e/helpers',
-    reportsPath: 'reports/e2e',
-    unitTests: './test/unit/*',
+    helpersPath: 'test/helpers/e2e',
+    reportsPath: 'reports',
+    unitTests: 'test/unit/*',
 };

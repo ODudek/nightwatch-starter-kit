@@ -5,5 +5,5 @@ module.exports = {
     'demo UnitTest': (done) => {
         assert.equal('TEST', 'TEST');
         done();
-    }
+    },
 };

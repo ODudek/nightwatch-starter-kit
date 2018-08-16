@@ -2,7 +2,6 @@
   "name": "nightwatch-starter-kit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "engines": {
     "node": "4.4.6"
   },
@@ -12,7 +11,7 @@
     "test:all": "npm run test:e2e && npm run test:unit"
   },
   "keywords": [],
-  "author": "",
+  "author": "ODudek",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {

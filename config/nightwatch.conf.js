@@ -28,11 +28,14 @@ module.exports = {
             'desiredCapabilities': {
                 'browserName': 'chrome',
                 'chromeOptions': {
-                    "args" : ["--headless"],
+                    'args' : ['--headless'],
                 }
             },
             'skip_testcases_on_fail': false,
-            'exclude' : config.unitTests,
+            'exclude' : [
+                config.unitTests,
+                config.helpersPath
+            ],
 
         },
         'unit': {
@@ -40,8 +43,8 @@ module.exports = {
                 'start_process': false,
                 'start_session': false
             },
-            "filter" : config.unitTests,
+            'filter' : config.unitTests,
             'compatible_testcase_support' : true
-          }
+          },
     }
-}
+};
