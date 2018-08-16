@@ -7,7 +7,9 @@
     "node": "4.4.6"
   },
   "scripts": {
-    "test:e2e": "nightwatch --config config/nightwatch.conf.js"
+    "test:e2e": "nightwatch --config config/nightwatch.conf.js --env e2e",
+    "test:unit": "nightwatch --config config/nightwatch.conf.js --env unit",
+    "test:all": "npm run test:e2e && npm run test:unit"
   },
   "keywords": [],
   "author": "",
